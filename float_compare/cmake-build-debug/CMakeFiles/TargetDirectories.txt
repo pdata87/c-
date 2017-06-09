@@ -1,3 +1,0 @@
-/home/pdata/Podyplomowka/repos/c++/float_compare/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pdata/Podyplomowka/repos/c++/float_compare/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pdata/Podyplomowka/repos/c++/float_compare/cmake-build-debug/CMakeFiles/float_compare.dir

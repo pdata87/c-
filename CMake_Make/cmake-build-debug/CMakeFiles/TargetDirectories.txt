@@ -1,3 +1,0 @@
-/home/pdata/Podyplomowka/repos/c++/CMake_Make/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pdata/Podyplomowka/repos/c++/CMake_Make/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pdata/Podyplomowka/repos/c++/CMake_Make/cmake-build-debug/CMakeFiles/CMake_Make.dir
