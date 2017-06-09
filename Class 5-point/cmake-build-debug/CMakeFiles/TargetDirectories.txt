@@ -1,0 +1,3 @@
+/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir

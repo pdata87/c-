@@ -1,0 +1,54 @@
+Why it doesn't compile.
+Fix it....
+
+struct MyType {
+    MyType(const MyType& t); 
+};
+
+int main() {
+    MyType a;
+} 
+
+
+Why it doesn't compile.
+Fix it....
+
+struct MyType {
+    MyType( const MyType& rhs); 
+    MyType( MyType& rsh);
+};
+
+MyType getType() { return MyType{};}
+
+int main() {
+    MyType b; 
+    MyType a {b};
+    MyType c { getType(); }
+};
+
+Add operator= to the class
+struct MyType {
+    MyType( const MyType& rhs);
+};
+
+MyType getType() { return MyType{};}
+
+int main() {
+    MyType b; 
+    MyType a {b};
+    MyType c { getType(); }
+};
+
+
+When copy ctor, operator= is called?
+
+struct MyType { 
+    MyType(const MyType& rhs); 
+    MyType& operator=(const MyType& rhs); 
+};
+
+int main() { 
+    MyType a,b; 
+    MyType c = a;
+    b = a;
+}

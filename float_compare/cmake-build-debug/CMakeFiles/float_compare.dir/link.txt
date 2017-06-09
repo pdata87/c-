@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/float_compare.dir/main.cpp.o  -o float_compare 
