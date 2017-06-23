@@ -24,6 +24,7 @@ int File::openFile() {
         std:: string exceptionMessage = "file not exist or couldn't be opened";
         throw exceptionMessage;
     }
+    std::cout << "File " << path <<" opened" << std::endl;
 }
 
 File::~File() {
@@ -36,7 +37,7 @@ File::File(const File &file) {
     mode = file.mode;
 }
 
-File &File::operator=( File &other) {
+File &File::operator=( File &other)  {
 
 
     return other;
@@ -48,4 +49,6 @@ File::File() {
     fileDescriptor=-1;
 
 }
+
+
 

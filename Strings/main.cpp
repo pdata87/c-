@@ -1,8 +1,17 @@
 #include <iostream>
 #include <cstring>
 #include <algorithm>
-std::string reverse_string(const char  * stringToReverse);
+#include <codecvt>
+#include <locale>
+#include <codecvt>
+#include <iostream>
+#include <string>
+#include <locale>
+#include <codecvt>
+#include <vector>
 
+std::string reverse_string(const char  * stringToReverse);
+std::wstring reverse_string(std:: string stringToReverse);
 
 /* 1st part -  Write a program to copy a string as a const char* and std::string into another one. */
 
@@ -22,6 +31,12 @@ int main() {
 
     std::cout<< "string copied in C++ Style :" << copy << std::endl;
     std:: cout << reverse_string("This is a string to reverse") <<std::endl;
+
+    std::string utfString = u8"Łódź";
+   // std:: cout << utfString <<std:: endl;
+
+    reverse_string(utfString);
+
 
     return 0;
 }

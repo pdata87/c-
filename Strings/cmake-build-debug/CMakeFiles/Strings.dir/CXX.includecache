@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pdata/Podyplomowka/repos/cpp/Strings/main.cpp
+iostream
+-
+cstring
+-
+algorithm
+-
+codecvt
+-
+locale
+-
+codecvt
+-
+iostream
+-
+string
+-
+locale
+-
+codecvt
+-
+vector
+-
+

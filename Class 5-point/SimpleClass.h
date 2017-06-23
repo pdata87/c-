@@ -24,7 +24,11 @@ public:
 
     SimpleClass(int int_value, std::string string_value, double double_value);
     SimpleClass();
-};
 
+    //getters
+
+     const std::string getString();
+};
+std::ostream & operator << (std::ostream & stream, const SimpleClass & simple);
 
 #endif //CLASS_5_POINT_SIMPLECLASS_H

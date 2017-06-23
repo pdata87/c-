@@ -36,3 +36,12 @@ SimpleClass::SimpleClass(const SimpleClass &ref) {
 SimpleClass::SimpleClass() {
 
 }
+
+ const std::string SimpleClass::getString() {
+    return stringValue;
+}
+
+std::ostream &operator<<(std::ostream &stream, const SimpleClass &simple) {
+    stream << simple.getString();
+    return  stream;
+}

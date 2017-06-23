@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.cpp
+/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.cpp
 ctgmath
 -
 limits
 -
 SimpleClass.h
-/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.h
+/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.h
 
-/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.h
+/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.h
 iostream
 -
 
-/home/pdata/Podyplomowka/repos/c++/Class 5-point/main.cpp
+/home/pdata/Podyplomowka/repos/cpp/Class 5-point/main.cpp
 iostream
 -
 SimpleClass.h
-/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.h
+/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pdata/Podyplomowka/repos/c++/Class 5-point
+# Install script for directory: /home/pdata/Podyplomowka/repos/cpp/Class 5-point
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

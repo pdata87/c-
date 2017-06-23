@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pdata/Podyplomowka/repos/cpp/Arrays/main.cpp
+iostream
+-
+array
+-
+algorithm
+-
+vector
+-
+cstring
+-
+

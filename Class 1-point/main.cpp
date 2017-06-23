@@ -51,5 +51,5 @@ struct MyType {
 int main() {
     MyType a,b;
     MyType c = a; //copy operator
-    b = a; //assig operator
+    b = a; //assign operator
 }

@@ -5,7 +5,7 @@
 #include <cstring>
 
 void revert_array(std::array<int,20> & arr);
-int *mergeTwoArrays(int *first, int *second, int numOfElements);
+int *mergeTwoCArrays(int *first, int *second, int numOfElements);
 std::ostream&  operator <<(std::ostream& stream, const std::array<int,20>& arr) {
 
    for(int elem : arr){
@@ -22,7 +22,7 @@ int main() {
     int firstCarray[10] = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
     int secondCarray[10] = { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 };
     int numOfElements = sizeof(firstCarray)/sizeof(int) +  sizeof(firstCarray)/sizeof(int);
-    int * output = mergeTwoArrays(firstCarray, secondCarray, numOfElements);
+    int * output = mergeTwoCArrays(firstCarray, secondCarray, numOfElements);
 
 
 
@@ -42,9 +42,7 @@ int main() {
 
     // Passing by reference
     revert_array(mergedArray);
-
-
-        std::cout << "After reverse "<< mergedArray << std::endl;
+    std::cout << "After reverse "<< mergedArray << std::endl;
 
 
     return 0;
@@ -56,10 +54,9 @@ void revert_array(std::array<int,20> & arr){
 }
 
 
-int * mergeTwoArrays(int *first, int *second, int numOfElements) {
+int * mergeTwoCArrays(int *first, int *second, int numOfElements) {
 
     int elements_in_each_array = numOfElements/2;
-
     int * outputArray = (int*)malloc(numOfElements * sizeof(int));
 
         std::memcpy(&outputArray[0],first,elements_in_each_array * sizeof(int));

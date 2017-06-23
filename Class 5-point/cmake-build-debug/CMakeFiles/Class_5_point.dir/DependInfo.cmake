@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.cpp" "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o"
-  "/home/pdata/Podyplomowka/repos/c++/Class 5-point/main.cpp" "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/main.cpp.o"
+  "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.cpp" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o"
+  "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/main.cpp" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

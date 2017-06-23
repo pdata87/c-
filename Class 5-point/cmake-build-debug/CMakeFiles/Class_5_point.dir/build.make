@@ -43,10 +43,10 @@ RM = /home/pdata/Apps/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pdata/Podyplomowka/repos/c++/Class 5-point"
+CMAKE_SOURCE_DIR = "/home/pdata/Podyplomowka/repos/cpp/Class 5-point"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Class_5_point.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Class_5_point.dir/flags.make
 
 CMakeFiles/Class_5_point.dir/main.cpp.o: CMakeFiles/Class_5_point.dir/flags.make
 CMakeFiles/Class_5_point.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Class_5_point.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Class_5_point.dir/main.cpp.o -c "/home/pdata/Podyplomowka/repos/c++/Class 5-point/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Class_5_point.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Class_5_point.dir/main.cpp.o -c "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/main.cpp"
 
 CMakeFiles/Class_5_point.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Class_5_point.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pdata/Podyplomowka/repos/c++/Class 5-point/main.cpp" > CMakeFiles/Class_5_point.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/main.cpp" > CMakeFiles/Class_5_point.dir/main.cpp.i
 
 CMakeFiles/Class_5_point.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Class_5_point.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pdata/Podyplomowka/repos/c++/Class 5-point/main.cpp" -o CMakeFiles/Class_5_point.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/main.cpp" -o CMakeFiles/Class_5_point.dir/main.cpp.s
 
 CMakeFiles/Class_5_point.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Class_5_point.dir/main.cpp.o.provides.build: CMakeFiles/Class_5_point
 
 CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o: CMakeFiles/Class_5_point.dir/flags.make
 CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o: ../SimpleClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o -c "/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o -c "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.cpp"
 
 CMakeFiles/Class_5_point.dir/SimpleClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Class_5_point.dir/SimpleClass.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.cpp" > CMakeFiles/Class_5_point.dir/SimpleClass.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.cpp" > CMakeFiles/Class_5_point.dir/SimpleClass.cpp.i
 
 CMakeFiles/Class_5_point.dir/SimpleClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Class_5_point.dir/SimpleClass.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pdata/Podyplomowka/repos/c++/Class 5-point/SimpleClass.cpp" -o CMakeFiles/Class_5_point.dir/SimpleClass.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/SimpleClass.cpp" -o CMakeFiles/Class_5_point.dir/SimpleClass.cpp.s
 
 CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o.requires:
 
@@ -117,7 +117,7 @@ Class_5_point: CMakeFiles/Class_5_point.dir/main.cpp.o
 Class_5_point: CMakeFiles/Class_5_point.dir/SimpleClass.cpp.o
 Class_5_point: CMakeFiles/Class_5_point.dir/build.make
 Class_5_point: CMakeFiles/Class_5_point.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Class_5_point"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Class_5_point"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Class_5_point.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Class_5_point.dir/clean:
 .PHONY : CMakeFiles/Class_5_point.dir/clean
 
 CMakeFiles/Class_5_point.dir/depend:
-	cd "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pdata/Podyplomowka/repos/c++/Class 5-point" "/home/pdata/Podyplomowka/repos/c++/Class 5-point" "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug" "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug" "/home/pdata/Podyplomowka/repos/c++/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug" "/home/pdata/Podyplomowka/repos/cpp/Class 5-point/cmake-build-debug/CMakeFiles/Class_5_point.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Class_5_point.dir/depend
 

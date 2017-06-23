@@ -14,7 +14,6 @@ class File {
 public :
     File(std::string path, mode_t mode);
     File& operator=( File& other);
-
     File(const File & file);
     File();
     ~File();

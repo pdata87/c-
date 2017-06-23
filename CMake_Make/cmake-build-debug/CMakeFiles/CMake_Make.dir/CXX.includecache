@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pdata/Podyplomowka/repos/c++/CMake_Make/function.cpp
+iostream
+-
+
+/home/pdata/Podyplomowka/repos/c++/CMake_Make/function.h
+iostream
+-
+
+/home/pdata/Podyplomowka/repos/c++/CMake_Make/main.cpp
+function.h
+/home/pdata/Podyplomowka/repos/c++/CMake_Make/function.h
+

@@ -14,5 +14,9 @@ int main() {
     if(test3 == test1){
         std:: cout << "objects are equal" << std::endl;
     }
+
+    std::cout << test3 << std::endl;
+
+
     return 0;
 }
