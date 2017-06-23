@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pdata/Podyplomowka/repos/cpp/Class 7-points/File.cpp
+fcntl.h
+-
+iostream
+-
+zconf.h
+-
+File.h
+/home/pdata/Podyplomowka/repos/cpp/Class 7-points/File.h
+
+/home/pdata/Podyplomowka/repos/cpp/Class 7-points/File.h
+string
+-
+
+/home/pdata/Podyplomowka/repos/cpp/Class 7-points/main.cpp
+iostream
+-
+fcntl.h
+-
+File.h
+/home/pdata/Podyplomowka/repos/cpp/Class 7-points/File.h
+

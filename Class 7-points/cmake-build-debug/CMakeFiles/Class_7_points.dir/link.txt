@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Class_7_points.dir/main.cpp.o CMakeFiles/Class_7_points.dir/File.cpp.o  -o Class_7_points 
